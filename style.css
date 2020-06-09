@@ -1,0 +1,60 @@
+body
+{
+    margin:0px;
+}
+#menu
+{
+    position:absolute;
+    top:20;
+    left:-40;
+    text-align:center;
+    width:fit-content;
+    height:fit-content;
+    display:block !important;
+}
+#menu > input[type=submit]
+{
+    width:150px;
+    margin-bottom:5px;
+    height:34px;
+    font-size:20px;
+    
+}
+#menu > input
+{
+    border:none;
+    background-color:none;
+    outline:none;
+    border-radius:8px;
+}
+input[type=file]
+{
+    color: transparent;
+    margin-left:10px;
+    width:150px;
+    height:34;
+    font-size:20px;
+}
+#body
+{
+    width:fit-content;
+    max-width:75%;
+    height:fit-content;
+    margin:10px auto;
+    color:red;
+}
+form
+{
+    display:inline-block;
+    max-width:240px;
+    max-height:240px;
+}
+.button
+{
+    width:100%;
+    cursor:pointer;
+}
+.selected
+{
+    border:2px solid lime;
+}
